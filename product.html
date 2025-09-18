@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-End Store - Product</title>
+
+    <!-- Links -->
+    <link rel="preload" href="./css/normalize.css" as="style" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
+    <link rel="preload" href="./css/styles.css" as="style" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="./index.html">
+        <img class="header__logo" src="./img/logo.png" alt="Front-End Store Logo" />
+      </a>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+      <a class="navigation__link" href="./index.html">Store</a>
+      <a class="navigation__link" href="./about.html">About Us</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+      <h1>ReactJS</h1>
+      <div class="shirt">
+        <img src="./img/3.jpg" alt="ReactJS T-shirt image" class="shirt__image" />
+        <div class="shirt__content">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa quam reiciendis autem reprehenderit earum consectetur commodi nulla perspiciatis natus? Possimus saepe aut corporis iusto similique deleniti neque eaque repudiandae.</p>
+          <form action="" class="form">
+            <select class="form__field" name="size" id="size">
+              <option value="" disabled selected>-- Select Size --</option>
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+              <option value="xlarge">X-Large</option>
+            </select>
+            <input class="form__field" type="number" name="quantity" id="quantity" placeholder="Quantity" min="1" max="999" />
+            <input class="form__submit" type="submit" value="Add to Cart" />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer__text">Front-End Store &copy;2025 - All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
